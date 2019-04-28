@@ -11,7 +11,7 @@ def argue(phrase = "I am right and you are wrong!")
 end
 
 def greeting(greeting = "Hi there,", name = "Bobby!")
-  puts "#{greeting} #{name}"
+  puts "#{greeting.to_s} #{name.to_s}"
 end
 
 def return_a_value
